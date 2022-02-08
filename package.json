@@ -1,5 +1,5 @@
 {
-  "name": "@sparkfish/capacitor-resources",
+  "name": "capacitor-resources",
   "version": "2.0.5",
   "description": "Generates icon & splash screen for capacitor projects using javascript only.",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bvdalling/capacitor-resources.git"
+    "url": "git://github.com/leopq/capacitor-resources.git"
   },
   "keywords": [
     "capacitor",
@@ -25,11 +25,14 @@
     "tool"
   ],
   "author": {
-    "name": "Brent Dalling",
-    "email": "bdalling+git@sparkfish.com"
+    "name": "Leonardo Quevedo",
+    "email": "lpachecoquevedo@gmail.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/bvdalling/capacitor-resources",
+  "bugs": {
+    "url": "https://github.com/leopq/capacitor-resources/issues"
+  },
+  "homepage": "https://github.com/leopq/capacitor-resources",
   "dependencies": {
     "@babel/core": "^7.7.4",
     "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
@@ -51,10 +54,6 @@
     {
       "name": "leopq",
       "email": "lpachecoquevedo@gmail.com"
-    },
-    {
-      "name": "Brent Dalling",
-      "email": "bdalling+git@sparkfish.com"
     }
   ]
 }
