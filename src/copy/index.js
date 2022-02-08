@@ -37,9 +37,9 @@ module.exports = () => {
       const copyAndroid = path.join(__dirname, './platforms/android/index')
       const copyIOS = path.join(__dirname, './platforms/ios/index')
       // display.header('Copying resources to native projects...')
-      await exec(`npx cross-env CAPACITOR_PROJECT_ROOT=${paths.getRootPath()} node ${copyAndroid}`)
+      await exec(`npx cross-env CAPACITOR_PROJECT_ROOT="${paths.getRootPath()}" node "${copyAndroid}"`)
       // display.success('Copied android resources')
-      await exec(`npx cross-env CAPACITOR_PROJECT_ROOT=${paths.getRootPath()} node ${copyIOS}`)
+      await exec(`npx cross-env CAPACITOR_PROJECT_ROOT="${paths.getRootPath()}" node "${copyIOS}"`)
       // display.success('Copied iOS resources')
       resolve()
     } catch (e) {
