@@ -1,6 +1,6 @@
 {
   "name": "@sparkfish/capacitor-resources",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Generates icon & splash screen for capacitor projects using javascript only.",
   "main": "index.js",
   "preferGlobal": true,
