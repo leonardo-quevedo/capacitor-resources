@@ -3,9 +3,7 @@
 Generate icon & splash screen for Capacitor projects using javascript only.
 
 
-![build](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)  ![platform](https://img.shields.io/node/v/react.svg) ![stars](https://img.shields.io/amo/stars/dustman.svg) ![license](https://img.shields.io/bower/l/bootstrap.svg)  
-  
-> [![basic-merchandising](https://imgur.com/LNOYczf.png)](https://github.com/leopq)
+![build](https://img.shields.io/appveyor/ci/gruntjs/grunt.svg)  ![platform](https://img.shields.io/node/v/react.svg) ![stars](https://img.shields.io/amo/stars/dustman.svg) ![license](https://img.shields.io/bower/l/bootstrap.svg)
 
 ## Introduction
 
@@ -39,7 +37,7 @@ Add your ```icon.png``` (1024x1024 px) and ```splash.png``` (2732x2732 px) files
 ### Options
 
     -V, --version               output the version number
-    -t, --transform-splash [optional] method used to generate splash screen 
+    -t, --transform-splash [optional] method used to generate splash screen
                                       available tokens: cover, crop
     -i, --icon [optional]       optional icon file path
                                 (default: ./resources/icon.png)
@@ -74,7 +72,7 @@ This way, you won't have to type every now and again the whole command line with
 All you have to do then is type :
 
     $ npm run resources
-    
+
 or
 
     $ yarn resources
